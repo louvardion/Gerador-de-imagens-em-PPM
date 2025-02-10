@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Projeto de teste para aprendizado
-Por:    Diego Amaral
+Por:    Diego Amaral (louvardion)
         Estudante de Análise e Desenvolvimento de Sistemas  
 Passos:
     1 - Criar um programa em C que crie um arquivo ".ppm".
