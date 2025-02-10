@@ -33,12 +33,15 @@ int main () {
                 int r = x;    //Vermelho variando na horizontal
                 int g = y;    //Verde variando na vertical
                 int b = 128;  //O Azul fica fixo
-                fprintf(imagem, "%d %d %d", r, g, b);
+                fprintf(imagem, "%d %d %d ", r, g, b);
             }
             fprintf(imagem, "\n");
         }
 
         fclose(imagem);
         printf("Imagem gerada: imagem.ppm\n");
+        printf("Pressione 'Enter' para sair:");
+        getchar();
+            
     return 0;
 }
