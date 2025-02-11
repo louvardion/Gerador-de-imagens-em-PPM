@@ -12,7 +12,7 @@ int main(){
          }
         printf("Arquivo aberto com sucesso!\n");
 
-         fprintf(gradiente_diagonal,"P3\n%d %d\n255\n", largura, altura);
+        fprintf(gradiente_diagonal,"P3\n%d %d\n255\n", largura, altura);
 
         for(int y = 0; y < altura; y++){
             for(int x = 0; x < largura; x++){
