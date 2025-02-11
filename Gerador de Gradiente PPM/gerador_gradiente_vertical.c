@@ -16,9 +16,9 @@ int main(){
         //Loop de impressão
         for(int y = 0; y < altura; y++){
             for(int x = 0; x < largura; x++){
-                int r = 255;  //branco
-                int g = ((float)y / altura) * 255; //Verde vertical
-                int b = 255; //branco
+                int r = ((float)y / altura) * 255;  //branco
+                int g = 255; //Verde vertical
+                int b = ((float)y / altura) * 255; //branco
 
                 fprintf(gradiente, "%d %d %d ", r, g ,b);
             }
